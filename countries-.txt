@@ -7,3 +7,12 @@ Portugal-Lisbon
 Finland-Helsinki
 France-Paris
 Germany-Berlin
+Sweden-Stockholm
+Spain-Madrid
+Serbia-Belgrade
+Norway-Oslo
+Moldova-Chisinau
+Greece-Athens
+Bulgaria-Sofia
+Austria-Vienna
+Switzerland-Bern
