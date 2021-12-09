@@ -1,0 +1,9 @@
+Estonia-Tallinn
+Albania-Tirana
+Belgium-Brussels
+Czechia-Prague
+Poland-Warsaw
+Portugal-Lisbon
+Finland-Helsinki
+France-Paris
+Germany-Berlin
