@@ -1,6 +1,6 @@
 from module import*
 from random import*
-from time import*
+from gtts import gTTS
 Capitals=dict()
 Capitals["Estonia"]="Tallinn"
 Capitals["Albania"]="Tirana"
@@ -58,22 +58,7 @@ for country in Countries:
             print("Хорошо")
     d=input("Хотите ли вы начать проговаривание слов для самостоятельного изучения? Да или Нет? ")
     if d=="Да":
-        sonastik={}
-        countries=[]
-        capitals=[]
-        file=open("countries-.txt","r")
-        for line in file:
-            k, v=line.strip().split("-")
-            sonastik[k.strip()]=v.strip()
-            countries.append(k)
-            capitals.append(sonastik[k.strip()])
-        file.close()
-        print(sonastik)
-        print("Countries: ")
-        print(countries)
-        print("Capitals:")
-        print(capitals)
-        a=input()
+        sonastik()
     if d=="Нет":
         print("Хорошо")
     p=input("Хотите ли пройти тест на знания столиц Европы? Да или Нет? ")
