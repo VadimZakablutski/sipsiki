@@ -22,6 +22,21 @@ Capitals["Austria"]="Vienna"
 Capitals["Switzerland"]="Bern"
 Countries=["Estonia","Albania","Belgium","Czechia","Poland","Portugal","Finland","France","Germany","Sweden","Spain","Serbia","Norway","Moldova","Greece","Bulgaria","Austria","Switzerland"]
 for country in Countries:
+    """
+    :Capitals:dict
+    :Countries:list
+    :sonastik:dict
+    :countries:list
+    :capitals:list
+    :esimene arv country:str
+    :teine arv ca:str
+    :kolmandaks arv p:str
+    :neljas arv v:str
+    :viies arv d:str
+    :kuues arv st:str
+    :seitsmes arv m:int
+    :rtype str:
+    """
     country=input("Введите страну: ")
     if country in Capitals:
         print("Столица страны "+country+": " +Capitals[country])
